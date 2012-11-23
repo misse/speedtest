@@ -1,0 +1,52 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    background: url(../images/bg.png);
+}
+
+html,body {
+    height:100%;
+}
+
+#container {
+    width:962px;
+    color:#fff;
+    height:100%;
+}
+
+.head {
+    height:192px;
+    vertical-align:bottom;
+    position:relative;
+}
+
+h1 {
+    position:absolute;
+    bottom:0px;
+    text-align:center;
+    width:100%;
+    font-size:60px;
+}
+
+a {
+    display:block;
+    height:156px;
+    width:447px;
+    background:#000;
+    float:left;
+    margin-top:33px;
+    margin-right:31px;
+    margin-left:2px;
+    text-align:center;
+    font-size:100px;
+    padding-top:35px;
+    opacity:0.6;
+    color:rgb(255,102,0);
+}
+
+a:hover {
+    opacity:1;
+}
